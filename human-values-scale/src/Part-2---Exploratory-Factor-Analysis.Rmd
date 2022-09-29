@@ -1,0 +1,158 @@
+---
+title: "Part 2 - Exploratory Factor Analysis"
+output: github_document
+editor_options: 
+  chunk_output_type: inline
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r load.library, echo=FALSE}
+lapply(c('lubridate', 'psych', 'tidyverse'), library, character.only=TRUE)
+data = read_csv('~/Documents/Exercises/human-values-scale/data/data.csv')
+```
+
+# Factor Analysis—Exploratory Factor Analysis
+
+Next we examine the underlying structure of a set of value-specific indicators premised on Schwartz's theory. The data was obtained from the European Social Survey (ESS) for rounds 1 through 8, Sweden only.
+
+```{r}
+# TUT LINK: https://www.r-bloggers.com/2018/10/how-to-create-a-correlation-matrix-in-r/
+library(corrplot)
+cor.matrix <- cor(data, method="spearman")
+corrplot(cor.matrix)
+```
+
+Several positive correlations of mid to higher range strength stand out: notably ipshabt (the importance to show abilities and be admired) correlates ipsuces (the importance to be successful and that people recognise achievements); as does impdiff (the importance to try new and different things in life) and ipadvnt (the importance to see adventures and have an exciting life).
+
+```{r}
+palette = colorRampPalette(c("green", "white", "red")) (20)
+heatmap(x = cor.matrix, col = palette, symm = TRUE)
+```
+
+## Correlation Matrix Factorability
+
+### Bartlett's Test of Sphericity
+
+Check whether the data is suitable for Principle Component Analysis (PCA), using the Barlett's Test of Sphericity: $X^2 = -(n-1-\frac{2k+5}6)ln|R|$. The test checks 'for redundancy between variables that we can summarise with lesser factors' ([REF: STATOLOGY](https://www.statology.org/bartletts-test-of-sphericity/)). The null hypothesis tests whether the variables are orthogonal—i.e., they're un-correlated. (Also interpreted as whether the correlation matrix is an identity matrix). The significance level is set at 0.05, hence if the $p$-value is lower than that threshold, the data is reducible insofar as a PCA can meaningfully reduce the number of variables to capture the variance with lesser variables.
+
+```{r barletts.test, echo=TRUE}
+n <- dim(data)[1]
+cortest.bartlett(cor.matrix, n)
+```
+
+We make use of `psych` package's `cortest.barlett` function and R's base `cor` function to calculate the test statistic and correlation matrix. Since the data is ordinal we set the method of computation to `spearman`.
+
+The chi-square statistic $X^2$ for Barlett's test is 6725.154, for $p$ = 0 \< 0.05—thus the test rejects the null hypothesis that the correlation matrix is an identity matrix. Hence a PCA is recommended. One additional test to check whether the data is suited for factor analysis is the Kaiser-Meyer-Olkin (KMO) measure of sampling adequacy is recommended.
+
+### Kaiser-Meyer-Olkin measure of Sampling Adequacy
+
+```{r barletts.test, echo=TRUE}
+KMO(cor.matrix)
+```
+
+The test reveals a sampling adequacy of 0.84, the individual KMO values near or above 0.8, placing the sampling adequacy well above the 0.5 threshold of poor factorability (Belhekar 2019).
+
+## Number of Factors
+
+```{r number.of.factors, echo=TRUE}
+fit <- principal(cor.matrix, nfactors = 6, rotate = "none")
+eigen <- fit$values
+
+pc_number <-1:21
+plot(pc_number, eigen, pch = 10, cex = 1, 
+    cex.lab = 1, cex.axis = 1, main = "Scree Plot", 
+    type = "b")
+abline(1, 0, 1, lty=3, col = 'blue')
+```
+
+Above we have the *Cattell's* scree plot, the red line indicating the Guttmann's eigenvalue greater than 1 criterion, suggesting retention of 4 principle components.
+
+```{r number.of.factors, echo=FALSE}
+library(nFactors) 
+ev <- eigen(cor.matrix) 
+ap <- nFactors::parallel(subject=nrow(data), 
+                         var=ncol(data), rep=100, 
+                         cent=0.05) 
+nS <- nScree(x=ev$values, aparallel=ap$eigen$qevpea) 
+plotnScree(nS)
+```
+
+Without placing a-priori constraints on the number of factors to be extracted, we now examine the underlying variable structure inasmuch as statistically grouping highly interrelated variables into composite sets called factors such that minimum information is lost. Common factor analysis and the principle component analysis are two approaches common in that regard.
+
+## Common Factor Analysis (CFA)
+
+When the primary objective is to identify the underlying latent factors common in sets of variables then CFA is the first port of call. Data reduction is thus not the primary concern, rather the summation of variables into common factors by observing only the variance shared amongst those correlated. The analysis leaves aside the *specific variation* (i.e. the variance specific to a variable ) and the *error variance* (i.e., the unexplained variance of correlated variables). In this sense, CFA is an open model since it explains only the common variance whilst more variance was explainable. Below we compare the factor analysis function of the `psych` package (`fa`) to that of R's (`factanal)`.
+
+```{r factor.anal.psych.package, echo=TRUE}
+# Factor analysis using fa function in psych package
+factors.psych <- fa(data, nfactors = 4, rotation = "varimax", scores = "regression", fm = "ml")
+print.psych(factors.psych, cut = 0.3, digits = 2, sort = TRUE)
+```
+
+```{r factor.anal.base.function, echo=FALSE}
+# Factor analysis using factanal from R base functions 
+factors.base <- factanal(data, factors = 4, rotation = "varimax", 
+               scores = "regression", method = "mle")
+print(factors.base, digits = 2, cutoff = 0.3, sort = TRUE)
+```
+
+The results between the common factor functions are comparable, but interestingly `fa` removes *impfree* and *ipcrtiv* while `factanal` removes only the latter. Hence the factor loadings pattern match with the exception that `factanal` loads the latter as an additional variable on one of the factors.
+
+The importance for wealth (imprich), show abilities, be admired (ipshabt), successful, and that people recognise achievements (ipsuces) loaded on the first factor (Factor 1). Factor 1 thus capture values of *power* and *achievement*, underlayed by the motivational goal of self-enhancement. However, adventure seeking and having an exciting life (ipadvnt—underlayed by the motivation goal of stimulation), as well as the importance to get respect from others (iprspot—underlayed by the motivation goal of tradition) also load on Factor 1.
+
+While factor 2 resemble universalism (ipeqopt, ipudrst, impenv) and benevolence (iphlppl), underlayed by the motivational goal of self-transcendence; factor 3 is estimated by indicators causal of security (iplylfr, impsafe), conformity (ipfrule, ipbhprp), and tradition (iprspot, imptrad), underlayed by the motivational goal of conservation.
+
+Finally, factor 4 is loaded by indicators causal of stimulation (impdiff , impadvnt) and hedonism (ipgdtim, ipadvnt), capturing the latent construct of openness to change. The table below arranges the above results firstly by the motivational goal, and then by the factor.
+
+## Principal Component Analysis (PCA)
+
+```{r pca, echo=TRUE}
+holder <- principal(data, nfactors = 4, residuals = FALSE, 
+          rotate = "varimax", n.obs = NA, 
+          covar = FALSE,  scores = TRUE, 
+          oblique.scores = TRUE, 
+          method = "regression")
+
+#print(holder$loadings, digits = 2, cutoff = 0.3, sort = TRUE)
+print.psych(holder)
+```
+
+| Motivational Goal  | Value Type     | Factor | Indicator |
+|--------------------|----------------|--------|-----------|
+| Self-Enhancement   | Power          | 1      | imprich   |
+| Self-Enhancement   | Power          | 1      | ipshabt   |
+| Self-Enhancement   | Achievement    | 1      | ipsuces   |
+| Openness to Change | Stimulation    | 1      | ipadvnt   |
+| Conservation       | Tradition      | 1      | iprspot   |
+| Self-Transcendence | Universalism   | 2      | ipeqopt   |
+| Self-Transcendence | Universalism   | 2      | ipudrst   |
+| Self-Transcendence | Universalism   | 2      | impenv    |
+| Self-Transcendence | Benevolence    | 2      | iphlppl   |
+| Conservation       | Tradition      | 2      | ipmodst   |
+| Openness to Change | Self-Direction | 2      | impfree   |
+| Conservation       | Security       | 2      | iplylfr   |
+| Conservation       | Security       | 3      | impsafe   |
+| Conservation       | Security       | 3      | ipstrgv   |
+| Conservation       | Conformity     | 3      | ipfrule   |
+| Conservation       | Conformity     | 3      | ipbhprp   |
+| Conservation       | Tradition      | 3      | iprspot   |
+| Conservation       | Tradition      | 3      | imptrad   |
+| Openness to Change | Stimulation    | 4      | impdiff   |
+| Openness to Change | Stimulation    | 4      | ipadvnt   |
+| Openness to Change | Hedonism       | 4      | ipgdtim   |
+| Openness to Change | Hedonism       | 4      | impfun    |
+
+Several indicators split their loading on more than one factor, but do not violate the objective of obtaining a simple structure (Belhekar, 2019). To be sure, a simple structure is observed when an indicator load on only one latent variable, or when an indicator has a higher loading on only one factor and a smaller loading on the other. To this end, smaller loadings are classified as less than 0.4. Split loading complicates theoretic interpretation (Belhekar, 2019). Indicators *ipadvnt* load on factor 1 and 4, while and *iprspot* load on factor 1 and 3. Although the literature suggest several descriptors to identify cross-loadings (e.g., Howard, 2015; Costello et al., 2005; Sandbrook, 2019), implementing an alternative rotation or removing the split-load-indicator are common remedies. Since the the analyses obtains a simple structure, the promax rotation analysis below is not necessary, but for the sake of interest.
+
+~~Rosa, Pedro Joel. (2021). Re: How to deal with cross loadings in Exploratory Factor Analysis?. Retrieved from: <https://www.researchgate.net/post/How-to-deal-with-cross-loadings-in-Exploratory-Factor-Analysis/6181893de9d4af5931571d38/citation/download.>~~
+
+```{r pca.promax.rotation, echo=FALSE}
+factors <- factanal(data, factors = 4, rotation = "promax", 
+               scores = "regression")
+print(factors, digits = 2, cutoff = 0.3, sort = TRUE)
+```
+
+The promax rotation gives a simpler structure than varimax; the latter is an orthogonal rotation while the former an oblique rotation. While orthogonal rotations assume un-correlated factors, oblique rotations assume that factors are correlated. The analysis show that the oblique rotation gives a simpler structure, but additionally show that Factor 3 and 4 obtains a negative correlation with Factor 1.
