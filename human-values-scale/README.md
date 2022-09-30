@@ -13,7 +13,7 @@
 
 The basic human value scale is a 21-item scale developed by Shalom H. Schwartz that measures 10 basic human values to identify respondents according to their basic value orientation. The human values model posits a circular structure where adjacent values are more compatible than those further away, and those at opposite ends are likely at conflict (Schwartz, 1994). While all people recognise the 10 values, their hierarchical arrangement each differs, the extend where opinions and behaviours are influenced the values higher up in the hierarchy.
 
-<img src="https://ai2-s2-public.s3.amazonaws.com/figures/2017-08-08/1ef641811162f71ec2a123f95c4941d79adfa83e/9-Figure1-1.png" alt="Fig. 1 — Theoretical model of relations among motivational types of values, higher order value types, and bipolar value dimensions (Schwartz, 1994)" width="563"/>
+<img src="https://github.com/dewaalaw/dsprojects/blob/46a14436d020a4bd32db72435c71863df257776c/human-values-scale/images/hvs.png" alt="Fig. 1 — Theoretical model of relations among motivational types of values, higher order value types, and bipolar value dimensions (Schwartz, 1994)" width="563"/>
 
 ## Data
 
