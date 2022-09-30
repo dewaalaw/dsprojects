@@ -53,7 +53,7 @@ inspect(fit.lavaan, what="std")$lambda
 semPaths(fit.lavaan, title = FALSE, curvePivot = TRUE, what="std")
 ```
 
-![](Part-3---Confirmatory-Factor-Analysis_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+![Structural Equation Model](https://github.com/dewaalaw/dsprojects/blob/0b0ad42d7fdd201172dde6f6dbbcc36c71acb0b8/human-values-scale/images/sem_model.png)<!-- -->
 
 ``` r
 summary(fit.lavaan)
