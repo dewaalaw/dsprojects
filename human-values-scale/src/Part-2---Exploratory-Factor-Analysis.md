@@ -12,7 +12,7 @@ cor.matrix <- cor(data, method="spearman")
 corrplot(cor.matrix)
 ```
 
-![](Part-2---Exploratory-Factor-Analysis_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+![correlation matrix](https://github.com/dewaalaw/dsprojects/blob/60ddcfe5bd0d2e94fd12f967435c0a52cd65c209/human-values-scale/images/cormat.png)<!-- -->
 
 Several positive correlations of mid to higher range strength stand out:
 notably ipshabt (the importance to show abilities and be admired)
@@ -26,7 +26,7 @@ palette = colorRampPalette(c("green", "white", "red")) (20)
 heatmap(x = cor.matrix, col = palette, symm = TRUE)
 ```
 
-![](Part-2---Exploratory-Factor-Analysis_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![heatmap of correlation matrix](https://github.com/dewaalaw/dsprojects/blob/9c01bb7b361e33e04d6d3c5fa4c467fab780518c/human-values-scale/images/heatmap.png)<!-- -->
 
 ## Correlation Matrix Factorability
 
@@ -110,7 +110,7 @@ plot(pc_number, eigen, pch = 10, cex = 1,
 abline(1, 0, 1, lty=3, col = 'blue')
 ```
 
-![](Part-2---Exploratory-Factor-Analysis_files/figure-gfm/number.of.factors-1.png)<!-- -->
+![Scree Plot](https://github.com/dewaalaw/dsprojects/blob/466a7b2f85b1db4d70ce9c0f1e3c9c6536236c33/human-values-scale/images/screeplot.png)<!-- -->
 
 Above we have the *Cattell’s* scree plot, the red line indicating the
 Guttmann’s eigenvalue greater than 1 criterion, suggesting retention of
@@ -125,7 +125,7 @@ Guttmann’s eigenvalue greater than 1 criterion, suggesting retention of
     ## 
     ##     parallel
 
-![](Part-2---Exploratory-Factor-Analysis_files/figure-gfm/number.of.factors.non.graphical-1.png)<!-- -->
+![Scree Plot Non-Graphical](https://github.com/dewaalaw/dsprojects/blob/466a7b2f85b1db4d70ce9c0f1e3c9c6536236c33/human-values-scale/images/screeplot_nongraph.png)<!-- -->
 
 Without placing a-priori constraints on the number of factors to be
 extracted, we now examine the underlying variable structure inasmuch as
