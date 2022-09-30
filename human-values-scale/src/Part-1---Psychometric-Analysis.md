@@ -31,7 +31,7 @@ according to the content of their underlying motivational goal. Adjacent
 values are more compatible than those further away, where those at
 opposite ends are likely at conflict (Schwartz, 1994).
 
-<img src="https://ai2-s2-public.s3.amazonaws.com/figures/2017-08-08/1ef641811162f71ec2a123f95c4941d79adfa83e/9-Figure1-1.png" alt="Fig. 1 — Theoretical model of relations among motivational types of values, higher order value types, and bipolar value dimensions (Schwartz, 1994)" width="563"/>
+<img src="https://github.com/dewaalaw/dsprojects/blob/39da999790a22d3a5ea14f5efcd707754a3fe059/human-values-scale/images/hvs.png" alt="Fig. 1 — Theoretical model of relations among motivational types of values, higher order value types, and bipolar value dimensions (Schwartz, 1994)" width="563"/>
 
 Schwartz’s human value scale (HVS) contends that the ‘needs of
 individuals as biological organisms’, ‘requisites of coordinated social
@@ -123,7 +123,7 @@ plot(model, items = c(2), lwd = 1, cex = 1.4)
 abline(v = -5:5, h = seq(0, 1, 0.1), col = "lightgray", lty = "dotted")
 ```
 
-![](Part-1---Psychometric-Analysis_files/figure-gfm/samejima.response.model-1.png)<!-- -->
+![IRCCC - item: imprich](https://github.com/dewaalaw/dsprojects/blob/39da999790a22d3a5ea14f5efcd707754a3fe059/human-values-scale/images/IRCCC_imprich.png)<!-- -->
 
 ``` r
 # Item information curve (IIC)
@@ -131,7 +131,7 @@ plot(model, type= "IIC", items = c(2), legend = TRUE, lwd = 1, cx = "topright")
 abline(v = -4:4, h = seq(0.11, 0.16, 0.005), col = "lightgray", lty = "dotted")
 ```
 
-![](Part-1---Psychometric-Analysis_files/figure-gfm/samejima.response.model-2.png)<!-- -->
+![IIC - item: imprich](https://github.com/dewaalaw/dsprojects/blob/39da999790a22d3a5ea14f5efcd707754a3fe059/human-values-scale/images/IIC_imprich.png)<!-- -->
 
 Apart from 3, 4, 5, and 6, all response categories have a higher
 probability of being selected when the respondent’s ability matching the
@@ -167,7 +167,7 @@ plot(model, type= "IIC", items = 0,
 abline(v = -4:4, h = seq(2.5, 6, 0.1), col = "lightgray", lty = "dotted")
 ```
 
-![](Part-1---Psychometric-Analysis_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+![Test Information Function](https://github.com/dewaalaw/dsprojects/blob/39da999790a22d3a5ea14f5efcd707754a3fe059/human-values-scale/images/TIF.png)<!-- -->
 
 For the IIC a flattened peak suggest the test item captures precise
 information for a range of examinees within the ability the flatness is
@@ -188,7 +188,7 @@ plot(vals[, "z"], 1/sqrt(vals[, "test.info"]),
 abline(v = -4:4, h = seq(0.45, 0.65, 0.05), col = "lightgray", lty = "dotted")
 ```
 
-![](Part-1---Psychometric-Analysis_files/figure-gfm/standard.error-1.png)<!-- -->
+![Standard Error of Measurment](https://github.com/dewaalaw/dsprojects/blob/39da999790a22d3a5ea14f5efcd707754a3fe059/human-values-scale/images/SEM.png)<!-- -->
 
 # References
 
