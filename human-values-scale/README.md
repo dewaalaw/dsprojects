@@ -21,7 +21,7 @@ The data was obtained for Sweden from the European Social Survey (ESS), rounds 1
 
 ## Objectives
 
-Firstly, the indicators were examined to determine whether the human value scale measures what it is out to measure (see part 1). The following objective was the underlying structure of the data to determine the data's dimensionality or the factors, i.e., whether there are sets of variable that are highly intercorrelated. Hence, rather than a Q factor analysis, an R factor analysis was commisioed to determine dimensions Ior constructs) latent within the data. To that end, the data was summarised rather than reduced, noting that these are the two outcomes provisioned by factor analysis (see part 2). The last objective validates the factor analysis by way of a confirmatory factor analysis through structural equation modelling—whether the data explains the posited theoretic model.
+Firstly, the indicators were examined to determine whether the human value scale measures what it is set out to measure (see part 1). Then the folloing objective was to determine the data's dimensionality or the underlying factors, i.e., whether there are sets of variables that are highly intercorrelated. Hence, rather than a Q factor analysis, an R factor analysis was commisioed to determine dimensions or constructs) that are latent within the data. To that end, the data was summarised rather than reduced, noting that these are the two outcomes provisioned by factor analysis (see part 2). The last objective validates the factor analysis by way of a confirmatory factor analysis through structural equation modelling—i.e., whether the data explains the posited theoretic model.
 
 ## Approach
 
