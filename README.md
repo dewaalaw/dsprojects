@@ -4,3 +4,5 @@ Welcome to my data science portfolio where I catologue projects undertaken durin
 On a general note, projects are coded in either R or Python. R projects were created in RStudio while python projects were created in Jupyter Notebooks. The following projects are catologued thus far:
 
 Project 1 - Factor Analysis of the Basic Human Values scale. 
+
+Project 2 - Data Analysis of Signage Data
