@@ -5,4 +5,6 @@ On a general note, projects are coded in either R or Python. R projects were cre
 
 Project 1 - Factor Analysis of the Basic Human Values scale. 
 
-Project 2 - Data Analysis of Signage Data
+Project 2 - Data Analysis of Signage Data.
+
+Project 3 - Data Analysis of Spotify Listening History.
