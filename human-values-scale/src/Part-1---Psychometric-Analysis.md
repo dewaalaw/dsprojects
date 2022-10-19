@@ -1,46 +1,24 @@
-Part 1 - Psychometric Analysis of the Human Values Scale
+Part 1 - Psychometric Analysis of the Human Value Scale
 ================
 
 # Introduction
 
-A value is an abstract orientation or belief that frame a behavioural
-ideal; are grounded in needs and norms; contextually stable yet time
-dependent; and hierarchical insofar as their (self or social)
-importance—e.g., it is quite common for a person or a group of people to
-hold certain values at higher regard than others. That values are
-grounded in needs and norms suggest that values are often a medium
-through which needs and norms are communicated. While values are
-contextually stable, changes within society, polity, and the economy
-bring about changes within values. Hence values change with time, in
-turn bringing about changes within society, politics, and the economy
-(Schwartz, 1994). Values are often distinguished from-, yet linked to
-valences, which are latent preconditions understood in terms of
-attraction or aversion (Feather, 1995). Accordingly, and given the
-diversity of people, it is conceivable that values are as diverse as
-people.
+Values are an abstract orientation or belief that frame a behavioural ideal; are grounded in needs and norms; contextually stable yet time dependent; and hierarchical insofar as their (self or social) importance. For example, it is quite common for a person or a group of people to
+hold certain values at higher regard than others. That values are grounded in needs and norms suggest that they are often a medium
+through which needs and norms are communicated. Now, although values are contextually stable, changes within society, polity, and the economy
+bring about changes within values. For this reason, values change with time—in turn bringing about changes within society, politics, and the economy
+(Schwartz, 1994). Taken together, values influence as they are influenced. 
+
+Valences, albeit linked, are often distinguished from values. The former is a latent preconditions understood in terms of attraction or aversion (Feather, 1995). Accordingly, and given the spread of people, values are conceivably as diverse as people.
 
 ## Swchartz’ Model of Basic Human Values
 
-Shalom H. Schwartz contends that despite this diversity there are
-nonetheless a normative and indeed now regarded a canonical set of ten
-transcendental human values defined by the central goal they represent.
-These are underlayed by four motivational goals—self-transcendence,
-conservation, self-enhancement, and openness to change. As shown in
-Figure 1, the model obtains a circular structure of human values
-according to the content of their underlying motivational goal. Adjacent
-values are more compatible than those further away, where those at
-opposite ends are likely at conflict (Schwartz, 1994).
+Shalom H. Schwartz contends that despite this diversity there are nonetheless a normative and indeed now regarded a canonical set of ten
+transcendental human values, defined by the central goal they represent. The 10 values are derived from what Schwartz regard as universal amongst all people—i.e., ‘the needs of individuals as biological organisms’, ‘requisites of coordinated social interaction’, ‘and requirements for the smooth functioning and survival of groups’. For this reason the 10 values are underlayed by four motivational goals—i.e., self-transcendence, conservation, self-enhancement, and openness to change. As shown in Figure 1, Schwartz posits that the human value model obtains a circular structure according to the content of the value's underlying motivational goal. Adjacent values are more compatible than those further away, where those at opposite ends are likely at conflict (Schwartz, 1994).
 
 <img src="https://github.com/dewaalaw/dsprojects/blob/39da999790a22d3a5ea14f5efcd707754a3fe059/human-values-scale/images/hvs.png" alt="Fig. 1 — Theoretical model of relations among motivational types of values, higher order value types, and bipolar value dimensions (Schwartz, 1994)" width="563"/>
 
-Schwartz’s human value scale (HVS) contends that the ‘needs of
-individuals as biological organisms’, ‘requisites of coordinated social
-interaction’, ‘and requirements for the smooth functioning and survival
-of groups’ are causal and thus the source of the ten values, enumerated
-in the codebook below, alongside the 21 indicators. For example, the
-indicator *impenv*—the importance to care for nature and environment
-which is a universal value type—is derived from the needs of individuals
-as biological organisms for survival.
+The codebook below lists the 10 values on the right alongside the indicators for measurement. For example, the indicator *impenv*—the importance to care for nature and environment, measuring the value universalism—is derived from the need of individuals as biological organisms to survive.
 
 ## Codebook
 
@@ -68,53 +46,24 @@ as biological organisms for survival.
 | imptrad  | Important to follow traditions and customs                             | Tradition       |
 | impfun   | Important to seek fun and things that give pleasure                    | Hedonism        |
 
-The indicators are specific to an exemplary ‘value’ which is
-representative of one of Schwartz’s 10 basic values. For instance
-*iphlppl*—the importance to help people and care for others’
-well-being—measures the ‘value’ *helpfulness*, but represents the basic
-value *benevolence* —whether they belief in the improvement of the
-welfare of others. There are of course other values such as *honesty*
-and *forgiveness* that equally represent benevolence.
+The indicators are specific to an exemplary ‘value’. For instance *iphlppl*—the importance to help people and care for others’ well-being—measures the sense of *helpfulness* to gauge a person's orientation toward the basic value *benevolence* —whether they belief in the improvement of the welfare of others. But, there are of course other qualities such as *honesty* and *forgiveness* that equally orient within a benevolence frame.
 
-Helpfulness, honesty, or forgiveness are conceivably abstract
-notions—their meaning which are socially constructed. For this reason,
-the indicator assumes that the respondent comports with the cultural and
-social meaning implied. Hence, the indicator assumes that the measured
-response indicates a connection with the ‘value’ (or in general terms,
-the trait) being measured. And it is indeed this assumption that yields
-to the un-observability of the trait, it being termed latent.
+Helpfulness, honesty, or forgiveness are conceivably abstract notions—their meaning which are socially constructed. For this reason, the indicator assumes that the respondent comports with the cultural and social meaning implied. Hence, the indicator assumes that the measured response indicates a connection with the ‘value’ (or in general terms, the trait) being measured. And it is indeed this assumption that yields to the un-observability of the trait—it being termed latent.
 
 # Psychometric Analysis
 
-The foregone assumption is central in Item Response Theory (IRT)—which
-addresses the question whether what is measured is indeed what we are
-measuring with the scale at hand.
+The foregone assumption underpins the Item Response Theory (IRT)—which addresses the question whether what is measured is indeed what we are measuring with the scale at hand.
 
 ## Graded Response Model (GRM)
 
-One way the above question be evaluated is by use of the graded response
-model which measures the probability of a response to an item as
-function of an individual’s ability (or predisposition)—noting that the
-21 item HVS ask respondents to rate the extent they match the person in
-a character sketch on a Likert-scale ranging from 1 (very much like me)
-through 6 (not like me at all).
-
-An individuals ability in terms of the item response theory is the
-latent trait of interest (i.e., the codebook items in the Basic Value
-column). Below we examine *imprich* which measures a person’s love of
-wealth, assuming that the latent trait—or motivational value—which gives
-rise to this behaviour is *power*. Respondents were asked how much they
-are like a person that hold in high regard the importance to be rich,
-wants a lot of money, and expensive things. They had the option of
-selecting either: 1 = “very much like me”; 2 = “like me”; 3 = “somewhat
-like me”; 4 = “a little like me”; 5 = “not like me”; 6 = “not like me at
-all”. (GRM’s are specifically suited for ordinal polytomous responses
+One way the above question be evaluated is by way of the graded response model. The GRM measures the probability of a response to an item as
+a function of an individual’s ability (or predisposition). An individual's ability in terms of the IRT is the latent trait of interest (i.e., the codebook item in the Basic Value
+column). Below we examine *imprich* which measures a person’s love of wealth, assuming that the latent trait—or motivational value—which gives rise to this behaviour is *power*. Respondents were asked how much they are like a person that hold in high regard the importance to be rich, wants a lot of money and expensive things. They had the option of selecting either: 1 = “very much like me”; 2 — “like me”; 3 — “somewhat
+like me”; 4 — “a little like me”; 5 - “not like me”; 6 - “not like me at all”. (GRM’s are specifically suited for ordinal polytomous responses
 such as these.)
 
-We plot the relation between the item response probability and ability
-(hereafter termed the item response category characteristic curves or
-IRCCC) in the first plot, followed by the item information curve (IIC)
-below.
+We plot the relation between the item response probability and ability—hereafter termed the item response category characteristic curves or
+IRCCC—in the first plot, followed by the item information curve (IIC) below.
 
 ``` r
 # Item response category characteristic curve
