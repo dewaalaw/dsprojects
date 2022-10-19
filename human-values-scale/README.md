@@ -11,17 +11,16 @@
 
 ## About the Human Values Scale
 
-The basic human value scale is a 21-item scale developed by Shalom H. Schwartz that measures 10 basic human values to identify respondents according to their basic value orientation. The human values model posits a circular structure where adjacent values are more compatible than those further away, and those at opposite ends are likely at conflict (Schwartz, 1994). While all people recognise the 10 values, their hierarchical arrangement each differs, the extend where opinions and behaviours are influenced the values higher up in the hierarchy.
+The basic human value scale is a 21-item scale developed by Shalom H. Schwartz. The scale measures 10 basic human values that classify respondents according to their basic value orientation. The human value model posits a circular structure where adjacent values are more compatible than those further away, and those at opposite ends are likely at conflict (Schwartz, 1994). While all people recognise the 10 values, their hierarchical arrangement differ to the extend where (cultural or socially constructed) opinions or behaviours influence values higher up in the hierarchy.
 
 <img src="https://github.com/dewaalaw/dsprojects/blob/46a14436d020a4bd32db72435c71863df257776c/human-values-scale/images/hvs.png" alt="Fig. 1 — Theoretical model of relations among motivational types of values, higher order value types, and bipolar value dimensions (Schwartz, 1994)" width="563"/>
 
 ## Data
-
-The data was obtained for Sweden from the European Social Survey (ESS), rounds 1 through 8. After removing missing and un-related values, the data contained 1441 respondents each which evaluated the 21 indicators on a 6-point Likert scale.
+The data was obtained from the European Social Survey (ESS) for Sweden, rounds 1 through 8. After removing missing values, 1441 entries remained.
 
 ## Objectives
 
-Firstly, the indicators were examined to determine whether the human value scale measures what it is set out to measure (see part 1). Then the folloing objective was to determine the data's dimensionality or the underlying factors, i.e., whether there are sets of variables that are highly intercorrelated. Hence, rather than a Q factor analysis, an R factor analysis was commisioed to determine dimensions or constructs) that are latent within the data. To that end, the data was summarised rather than reduced, noting that these are the two outcomes provisioned by factor analysis (see part 2). The last objective validates the factor analysis by way of a confirmatory factor analysis through structural equation modelling—i.e., whether the data explains the posited theoretic model.
+Firstly, the indicators were examined to determine whether the human value scale measure what it was intended to measure (see part 1). Thereafter the data's dimensionality or underlying factors were examined—whether there are sets of variables that are highly intercorrelated. Hence, rather than a Q factor analysis, an R factor analysis was used to determine dimensions (or constructs) that are latent within the data. To that end, the data was summarised rather than reduced, noting that these are the two outcomes provisioned by factor analysis (see part 2). Lastly, the factor analysis was validated by way of a confirmatory factor analysis to answer whether the data explains the posited theoretic model.
 
 ## Approach
 
@@ -31,14 +30,13 @@ Firstly, the indicators were examined to determine whether the human value scale
 
 ## Evaluation and Conclusion
 
-Psychometric Analysis: The Test information function plateaus at 5.1, for the range $(0<= \theta<=1)$. Hence the human values scale provide accurate information of examinees' ability within the said range—outside of which precision decreases.
-
+**Psychometric Analysis:** The Test information function plateaus at 5.1, for the range $(0<= \theta<=1)$. Hence the human value scale provides accurate information of respondents' ability within the said range—outside of which precision decreases.
 
 <img src="https://github.com/dewaalaw/dsprojects/blob/c018022949591f72742f6bbdc859138074dc7bac/human-values-scale/images/TIF.png" alt="Test Information Function for the Human Values Scale" width="643"/>
 
-Exploratory Factor Analysis: The analysis obtains an optimal structure revealing four latent factors.
+**Exploratory Factor Analysis:** The analysis obtains an optimal structure revealing four latent factors.
 
-Confirmatory Factor Analysis: The model fit measures suggest inadequate model fit.
+**Confirmatory Factor Analysis:** The fit metrics suggest inadequate model fit.
 
 ## References
 
