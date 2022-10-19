@@ -9,7 +9,7 @@ through which needs and norms are communicated. Now, although values are context
 bring about changes within values. For this reason, values change with time—in turn bringing about changes within society, politics, and the economy
 (Schwartz, 1994). Taken together, values influence as they are influenced. 
 
-Valences, albeit linked, are often distinguished from values. The former is a latent preconditions understood in terms of attraction or aversion (Feather, 1995). Accordingly, and given the spread of people, values are conceivably as diverse as people.
+Valences, albeit linked, are often distinguished from values. The former is a latent precondition understood in terms of attraction or aversion (Feather, 1995). Accordingly, and given the spread of people, values are conceivably as diverse as people.
 
 ## Swchartz’ Model of Basic Human Values
 
