@@ -1,7 +1,7 @@
 # Arthur W. de Waal—Data Science Portfolio
-Welcome to my data science portfolio. Here I catologue projects undertaken during spare time. Five projects are intended, noting that new projects are regularly catologued soonest after completion. To that effect, please return soon for an updated. 
+Welcome to my data science portfolio. Here undertaken during spare time are catalogued. Projects are regularly updated soonest after completion. To that effect, please return soon for an update. 
 
-Projects are coded in either R or Python—R projects are created in RStudio while python projects are created in Jupyter Notebooks. The following projects are catologued thus far:
+The following projects are listed thus far:
 
 Project 1 - Factor Analysis of the Basic Human Values Scale [Status - Complete]. 
 
