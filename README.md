@@ -1,5 +1,5 @@
 # Arthur W. de Waal—Data Science Portfolio
-Welcome to my data science portfolio. Here undertaken during spare time are catalogued. Projects are regularly updated soonest after completion. To that effect, please return soon for an update. 
+Welcome to my data science portfolio. Here projects undertaken during spare time are catalogued. Projects are regularly updated, hence, please return soon for an update. 
 
 The following projects are listed thus far:
 
