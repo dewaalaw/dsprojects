@@ -3,22 +3,18 @@ Part 1 - Psychometric Analysis of the Human Value Scale
 
 # Introduction
 
-Values are an abstract orientation or belief that frame a behavioural ideal; are grounded in needs and norms; contextually stable yet time dependent; and hierarchical insofar as their (self or social) importance. For example, it is quite common for a person or a group of people to
-hold certain values at higher regard than others. That values are grounded in needs and norms suggest that they are often a medium
-through which needs and norms are communicated. Now, although values are contextually stable, changes within society, polity, and the economy
-bring about changes within values. For this reason, values change with time—in turn bringing about changes within society, politics, and the economy
-(Schwartz, 1994). Taken together, values influence as they are influenced. 
+Values are an abstract orientation or belief that frame a behavioural ideal; are grounded in needs and norms; contextually stable yet time dependent; and hierarchical insofar as their (self or social) importance. For example, it is quite common for a person or a group of people to hold certain values at higher regard than others. That values are grounded in needs and norms suggest that they are often a medium through which needs and norms are communicated. Now, although values are contextually stable, changes within society, polity, and the economy bring about changes within values. For this reason, values change with time—in turn bringing change within society, polity, and the economy (Schwartz, 1994). Taken together, values influence as they are influenced. 
 
-Valences, albeit linked, are often distinguished from values. The former is a latent precondition understood in terms of attraction or aversion (Feather, 1995). Accordingly, and given the spread of people, values are conceivably as diverse as people.
+Valences, albeit linked, are often distinguished from values. The former is a latent precondition understood in terms of attraction or aversion (Feather, 1995). Given the spread of people, values are conceivably as diverse as people.
 
 ## Swchartz’ Model of Basic Human Values
 
-Shalom H. Schwartz contends that despite this diversity there are nonetheless a normative and indeed now regarded a canonical set of ten
-transcendental human values, defined by the central goal they represent. The 10 values are derived from what Schwartz regard as universal amongst all people—i.e., ‘the needs of individuals as biological organisms’, ‘requisites of coordinated social interaction’, ‘and requirements for the smooth functioning and survival of groups’. For this reason the 10 values are underlayed by four motivational goals—i.e., self-transcendence, conservation, self-enhancement, and openness to change. As shown in Figure 1, Schwartz posits that the human value model obtains a circular structure according to the content of the value's underlying motivational goal. Adjacent values are more compatible than those further away, where those at opposite ends are likely at conflict (Schwartz, 1994).
+Shalom H. Schwartz contends that despite this diversity there are nonetheless a normative and indeed now a canonical set of ten
+transcendental human values, defined by the central goal they represent. The 10 values are derived from what Schwartz foresee as universal amongst all people—i.e., ‘the needs of individuals as biological organisms’, ‘requisites of coordinated social interaction’, ‘and requirements for the smooth functioning and survival of groups’. Accordingly, the 10 values are underlayed by four motivational goals—i.e., self-transcendence, conservation, self-enhancement, and openness to change. Shown in Figure 1, Schwartz posits that the human value model obtain a circular structure according to the value's underlying motivational goal. Adjacent values are more compatible than those further away, where those at opposite ends are likely at conflict (Schwartz, 1994).
 
 <img src="https://github.com/dewaalaw/dsprojects/blob/39da999790a22d3a5ea14f5efcd707754a3fe059/human-values-scale/images/hvs.png" alt="Fig. 1 — Theoretical model of relations among motivational types of values, higher order value types, and bipolar value dimensions (Schwartz, 1994)" width="563"/>
 
-The codebook below lists the 10 values on the right alongside the indicators for measurement. For example, the indicator *impenv*—the importance to care for nature and environment, measuring the value universalism—is derived from the need of individuals as biological organisms to survive.
+The codebook below list the 10 values on the right alongside the indicators for measurement. For example, the indicator *impenv*—the importance to care for nature and environment, measuring the value, universalism—is derived from the need of individuals as biological organisms to survive.
 
 ## Codebook
 
@@ -46,9 +42,9 @@ The codebook below lists the 10 values on the right alongside the indicators for
 | imptrad  | Important to follow traditions and customs                             | Tradition       |
 | impfun   | Important to seek fun and things that give pleasure                    | Hedonism        |
 
-The indicators are specific to an exemplary ‘value’. For instance *iphlppl*—the importance to help people and care for others’ well-being—measures the sense of *helpfulness* to gauge a person's orientation toward the basic value *benevolence* —whether they belief in the improvement of the welfare of others. But, there are of course other qualities such as *honesty* and *forgiveness* that equally orient within a benevolence frame.
+The indicators are specific to an exemplary ‘value’. For instance *iphlppl*—the importance to help people and care for others’ well-being—measures the sense of *helpfulness* to gauge a person's orientation toward the basic value *benevolence* —whether they belief in the improvement of the welfare of others. But, other qualities such as *honesty* and *forgiveness* that equally orient within a benevolence frame are also likely contenders.
 
-Helpfulness, honesty, or forgiveness are conceivably abstract notions—their meaning which are socially constructed. For this reason, the indicator assumes that the respondent comports with the cultural and social meaning implied. Hence, the indicator assumes that the measured response indicates a connection with the ‘value’ (or in general terms, the trait) being measured. And it is indeed this assumption that yields to the un-observability of the trait—it being termed latent.
+Helpfulness, honesty, or forgiveness are conceivably abstract notions—their meaning which are socially constructed. For this reason, the indicator assumes that the respondent comports with the cultural and social meaning implied. Hence, the indicator assumes that the measured response (on the likert-scle) indicates a connection with the ‘value’ (or in general terms, the trait) being measured. And it is indeed this assumption that yields to the un-observability of the trait—it being termed latent.
 
 # Psychometric Analysis
 
@@ -59,11 +55,11 @@ The foregone assumption underpins the Item Response Theory (IRT)—which address
 One way the above question be evaluated is by way of the graded response model. The GRM measures the probability of a response to an item as
 a function of an individual’s ability (or predisposition). An individual's ability in terms of the IRT is the latent trait of interest (i.e., the codebook item in the Basic Value
 column). Below we examine *imprich* which measures a person’s love of wealth, assuming that the latent trait—or motivational value—which gives rise to this behaviour is *power*. Respondents were asked how much they are like a person that hold in high regard the importance to be rich, wants a lot of money and expensive things. They had the option of selecting either: 1 = “very much like me”; 2 — “like me”; 3 — “somewhat
-like me”; 4 — “a little like me”; 5 - “not like me”; 6 - “not like me at all”. (GRM’s are specifically suited for ordinal polytomous responses
+like me”; 4 — “a little like me”; 5 — “not like me”; 6 — “not like me at all”. (GRM’s are specifically suited for ordinal polytomous responses
 such as these.)
 
-We plot the relation between the item response probability and ability—hereafter termed the item response category characteristic curves or
-IRCCC—in the first plot, followed by the item information curve (IIC) below.
+The relation between the item response probability and ability—hereafter termed the item response category characteristic curves or
+IRCCC—in the first plot, followed by the item information curve (IIC) is shown below.
 
 ``` r
 # Item response category characteristic curve
@@ -85,9 +81,9 @@ abline(v = -4:4, h = seq(0.11, 0.16, 0.005), col = "lightgray", lty = "dotted")
 Apart from 3, 4, 5, and 6, all response categories have a higher
 probability of being selected when the respondent’s ability matching the
 person depicted is high. A low ability in this instance indicates a high
-predisposition for power. From the scale’s ordinal direction the IRCCC
+predisposition to power. From the scale’s ordinal direction the IRCCC
 shows the response of 6 (not like me at all), which has a higher
-probability when the predisposition for power is low. This suggests that
+probability when the predisposition to power is low. This suggests that
 people with a low ability of power have a high probability of choosing
 6. Interestingly, individuals with a moderate ability of power are
 likely to choose 5 ( not like me). The IRCCC shows that the probability
@@ -119,14 +115,14 @@ abline(v = -4:4, h = seq(2.5, 6, 0.1), col = "lightgray", lty = "dotted")
 ![Test Information Function](https://github.com/dewaalaw/dsprojects/blob/39da999790a22d3a5ea14f5efcd707754a3fe059/human-values-scale/images/TIF.png)<!-- -->
 
 For the IIC a flattened peak suggest the test item captures precise
-information for a range of examinees within the ability the flatness is
+information for a range of respondents within the ability the flatness is
 observed. Likewise, as several items constitute a larger test (in this
 instance the human values test), as shown above, so can the information
 function be determined for the entire test—hereafter termed the test
 information function (TIF). The TIF’s peak plateaus at 5.1, for the
 range
 ![(0\<= \\theta\<=1)](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;%280%3C%3D%20%5Ctheta%3C%3D1%29 "(0<= \theta<=1)").
-Hence the human values test provide accurate information of examinees’
+Hence the human values test provide accurate information of respondents’
 ability within the said range—outside of which precision decreases.
 
 ``` r
