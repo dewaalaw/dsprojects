@@ -5,7 +5,7 @@ Part 1 - Psychometric Analysis of the Human Value Scale
 
 Values are an abstract orientation or belief that frame a behavioural ideal; are grounded in needs and norms; contextually stable yet time dependent; and hierarchical insofar as their (self or social) importance. For example, it is quite common for a person or a group of people to hold certain values at higher regard than others. That values are grounded in needs and norms suggest that they are often a medium through which needs and norms are communicated. Now, although values are contextually stable, changes within society, polity, and the economy bring about changes within values. For this reason, values change with time—in turn bringing change within society, polity, and the economy (Schwartz, 1994). Taken together, values influence as they are influenced. 
 
-Valences, albeit linked, are often distinguished from values. The former is a latent precondition understood in terms of attraction or aversion (Feather, 1995). Given the spread of people, values are conceivably as diverse as people.
+Valences on the other hand, albeit linked, are often distinguished from values. The former is a latent precondition understood in terms of attraction or aversion (Feather, 1995). Given the spread of people, values are therefore conceivably as diverse as people.
 
 ## Swchartz’ Model of Basic Human Values
 
