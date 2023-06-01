@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-1.  [About the Signage Survey](#about-signage-survey-analysis)
+1.  [About the Signage Survey](#about-the-signage-survey)
 2.  [Data](#data)
 3.  [Objectives](#objectives)
 4.  [Approach](#approach)
