@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-1.  [About Traffic Flow Forecast](#about-traffic-flow-forecast)
+1.  [About the Traffic Flow Forecast](#about-the-traffic-flow-forecast)
 2.  [Data](#data)
 3.  [Objectives](#objectives)
 4.  [Approach](#approach)
