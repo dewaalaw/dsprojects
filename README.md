@@ -7,4 +7,4 @@ Project 1 - Factor Analysis of the Basic Human Values Scale [Status - Complete].
 
 Project 2 - Data Analysis of Signage Survey [Status - Working Project].
 
-Project 3 - Data Analysis of Spotify Listening History [Pending].
+Project 3 - Traffic Flow Forecast Spotify [Status - Working Project].
