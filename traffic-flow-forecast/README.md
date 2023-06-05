@@ -27,6 +27,12 @@ Hourly traffic volume, westboud on the I-94 highway, interconnecting Minneapolis
 - Analyse results
 
 ## Evaluation and Conclusion
-A better performing model does not imply a better neural-net architecture. Rather, it depends on the predictive problem to be solved. Given traffic volume forecast problem, the Auto-regressive LSTM outperformed the other models, albeit a small margin compared to the  
+A better performing model does not imply a better neural-net architecture. Rather, it depends on the problem to be solved. Three predictive problems were solved, namely the prediction of a one hour timestep, a 24-hour timestep, and a multi-ouput predction of one hour timestep. The results are displayed for each of these scenarious, respectively.
+
+### Single-Step  
+
+### Multi-Step
+ 
+### Multi-Output — i.e. temperature and traffic volume
 
 ## References
