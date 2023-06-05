@@ -22,10 +22,11 @@ Hourly traffic volume, westboud on the I-94 highway, interconnecting Minneapolis
 ## Approach
 - Data wrangling and preprocessing
 - Feature engineering
-- Helper functions
+- Code helper functions
 - Implement and train deep learning models 
-- Analyse Results
+- Analyse results
 
 ## Evaluation and Conclusion
+A better performing model does not imply a better neural-net architecture. Rather, it depends on the predictive problem to be solved. Given traffic volume forecast problem, the Auto-regressive LSTM outperformed the other models, albeit a small margin compared to the  
 
 ## References
