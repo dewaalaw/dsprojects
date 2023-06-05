@@ -10,6 +10,9 @@
 6.  [References](#references)
 
 ## About the Traffic Flow Forecast
+Traffic flow forecasting allows transport planners to determine travel demand based on past road user travel frequency. 
+
+We implement models based on the architecture of a Convolutional Neural Network; a Recursive Neural Network by way of the Long Short-Term Memory (LSTM) Architecture; and finally an Auto-Regressive LSTM to predict traffic volume for a single- and a 24 hour time-step on the one hand. And on the other a multi prediction of temperature and traffic volume simultaneously. 
 
 ## Data
 
