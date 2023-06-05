@@ -36,5 +36,7 @@ A better performing model does not imply a better neural-net architecture. Rathe
 ### Multi-Output — i.e. temperature and traffic volume
 
 ## References
+- Chollet, Francios. 2018. Deep Learning with Python. First. edited by T. Arritola, J. Gaines, A. Dragosavljevic, T. Taylor, and K. Tennant. Shelter Island, NY: Manning Publications Co.
 - Lynch, Stephen. 2023. Python for Scientific Computing and Artificial Intelligence. Chapman and Hall/CRC.
 - McKinney, Wes. 2022. Python for Data Analysis.
+- Müller, Andreas C., and Sarah Guido. 2017. Introduction to Machine Learning with Python: A Guide for Beginners in Data Science. edited by D. Schanafelt. Sebastopol, CA: O’Reilly Media, Inc.
