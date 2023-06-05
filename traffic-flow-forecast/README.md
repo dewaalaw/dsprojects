@@ -30,10 +30,10 @@ Hourly traffic volume, westboud on the I-94 highway, interconnecting Minneapolis
 A better performing model does not imply a better neural-net architecture. Rather, it depends on the problem to be solved. Three predictive problems were solved, namely the prediction of a one hour timestep, a 24-hour timestep, and a multi-ouput prediction of tempearture and traffic volume for a one hour timestep. The results are displayed for each of these scenarious, respectively.
 
 ### Single-Step 
-<img src="https://github.com/dewaalaw/dsprojects/blob/main/traffic-flow-forecast/images/compare_single_step_models.png" alt="Fig. 1 — Single Step Models" width="563"/>
+<img src="https://github.com/dewaalaw/dsprojects/blob/main/traffic-flow-forecast/images/compare_single_step_models.png" alt="Fig. 1 — Single Step Models" width="800"/>
 
 ### Multi-Step
-<img src="https://github.com/dewaalaw/dsprojects/blob/46a14436d020a4bd32db72435c71863df257776c/human-values-scale/images/hvs.png" alt="Fig. 2 — Multi-Step Models" width="563"/>
+<img src="https://github.com/dewaalaw/dsprojects/blob/main/traffic-flow-forecast/images/compare_multi_step_models.png" alt="Fig. 2 — Multi-Step Models" width="800"/>
 
 ### Multi-Output — i.e. temperature and traffic volume
 <img src="https://github.com/dewaalaw/dsprojects/blob/46a14436d020a4bd32db72435c71863df257776c/human-values-scale/images/hvs.png" alt="Fig. 3 — Multi-Output Models" width="563"/>
