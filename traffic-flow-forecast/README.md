@@ -10,7 +10,7 @@
 6.  [References](#references)
 
 ## About
-Implementation of models based on the architecture of a Convolutional Neural Network; a Recursive Neural Network by way of the Long Short-Term Memory (LSTM) Architecture; as well as an Auto-Regressive LSTM to predict traffic volume for a single- and 24 hour time-step. Additionally, a multi-output model that predicts temperature and traffic volume is created.
+This project implement models based on architecture of a Convolutional Neural Network; a Recursive Neural Network by way of the Long Short-Term Memory (LSTM) Architecture; as well as an Auto-Regressive LSTM to predict traffic volume for a single- and 24-hour time-step. Additionally, a multi-output model was created that predicts temperature and traffic volume simultaneosly.
 
 ## Data
 Hourly traffic volume, westboud on the I-94 highway, interconnecting Minneapolis and St.Paul, Minnesota, from 2012 to 2018.
