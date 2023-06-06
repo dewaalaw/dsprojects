@@ -27,7 +27,7 @@ Hourly traffic volume, westboud on the I-94 highway, interconnecting Minneapolis
 - Analyse results
 
 ## Evaluation and Conclusion
-A better performing model does not imply a better neural-net architecture. Rather, it depends on the problem to be solved. Three predictive problems were solved, namely the prediction of a one hour timestep, a 24-hour timestep, and a multi-ouput prediction of tempearture and traffic volume for a one hour timestep. The results are displayed for each of these scenarious, respectively.
+A better performing model does not imply a better neural-net architecture. Rather, it depends on the problem to be solved. Three predictive problems were solved, namely the prediction of a one hour timestep, a 24-hour timestep, and a multi-ouput prediction of tempearture and traffic volume for a one hour timestep. The results are displayed for each of these scenarious.
 
 ### Single-Step 
 <img src="https://github.com/dewaalaw/dsprojects/blob/main/traffic-flow-forecast/images/compare_single_step_models.png" alt="Fig. 1 — Single Step Models" width="750"/>
