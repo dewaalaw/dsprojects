@@ -5,7 +5,7 @@ The following projects are listed thus far:
 
 Project 1 - Factor Analysis of the Basic Human Values Scale [Status - Complete]. 
 
-Project 2 - Traffic Flow Forecast Spotify [Status - Completed].
+Project 2 - Traffic Volume Forecast [Status - Completed].
 
 Project 3 - Data Analysis of Signage Survey [Status - Working Project].
 
