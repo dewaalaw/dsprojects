@@ -10,7 +10,11 @@
 6.  [References](#references)
 
 ## About
-This project implement models based on architecture of a Convolutional Neural Network; a Recursive Neural Network by way of the Long Short-Term Memory (LSTM) Architecture; as well as an Auto-Regressive LSTM to predict traffic volume for a single- and 24-hour time-step. Additionally, a multi-output model was created that predicts temperature and traffic volume simultaneosly.
+Traffic volume forecasting is the process of predicting the future traffic flow on road networks, typically for a specific time period. It is an essential component of transportation planning and management, as it helps stakeholders make informed decisions about infrastructure development, traffic control strategies, and resource allocation. 
+
+To perform traffic volume forecast, various data sources and techniques are employed. Historical traffic data, such as traffic counts or travel time records, are commonly used as inputs. Additionally, factors like weather conditions, special events, and road construction are taken into account to capture their impact on traffic patterns. Machine learning algorithms, statistical models, and time series analysis are often applied to analyze the data and generate forecasts. These forecasts enable transportation agencies, city planners, and engineers to optimize road networks, design efficient transportation systems, and implement effective traffic management measures. By anticipating future traffic volumes, engineers can work towards alleviating congestion, improving safety, and enhancing overall mobility.
+
+This project implements machine learning models based on the architecture of a Convolutional Neural Network; a Recursive Neural Network by way of the Long Short-Term Memory (LSTM) Architecture; as well as an Auto-Regressive LSTM to predict traffic volume for a single- and 24-hour time-step. Additionally, a multi-output model was created that predicts temperature and traffic volume simultaneosly.
 
 ## Data
 Hourly traffic volume, westboud on the I-94 highway, interconnecting Minneapolis and St.Paul, Minnesota, from 2012 to 2018.
