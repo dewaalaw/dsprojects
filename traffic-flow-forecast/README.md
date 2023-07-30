@@ -11,7 +11,7 @@
 7.  [References](#references)
 
 ## About
-Traffic volume forecasting is the process of predicting the future traffic flow on road networks, typically for a specific time period. It is an essential component of transport planning and management, since it affords stakeholders to make informed decisions about infrastructure development, traffic control strategies, and resource allocation. 
+Traffic volume forecasting is the process of predicting the future traffic flow on road networks, typically for a specific time period. It is an essential component of transport planning and management, as it affords stakeholders to make informed decisions about infrastructure development, traffic control strategies, and resource allocation. 
 
 To perform traffic volume forecasting, various data sources and techniques are employed. Historical traffic data, such as traffic counts or travel time records, are commonly used as inputs. Externalities such as weather conditions, special events, and road construction are additionaly taken into account as these also impact traffic patterns. Machine learning algorithms, statistical models, and time series analysis are often applied to analyze the data and generate forecasts. These forecasts enable transportation agencies, city planners, and engineers to optimize road networks, design efficient transportation systems, and implement effective traffic management measures. By anticipating future traffic volumes, stakeholders can work towards alleviating congestion, improving safety, and enhancing overall mobility.
 
