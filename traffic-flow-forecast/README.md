@@ -6,8 +6,9 @@
 2.  [Data](#data)
 3.  [Objectives](#objectives)
 4.  [Approach](#approach)
-5.  [Evaluation and Conclusion](#evaluation-and-conclusion)
-6.  [References](#references)
+5.  [File Structure](#file-structure)
+6.  [Evaluation and Conclusion](#evaluation-and-conclusion)
+7.  [References](#references)
 
 ## About
 Traffic volume forecasting is the process of predicting the future traffic flow on road networks, typically for a specific time period. It is an essential component of transport planning and management, since it affords stakeholders to make informed decisions about infrastructure development, traffic control strategies, and resource allocation. 
@@ -33,8 +34,8 @@ Hourly traffic volume, westboud on the I-94 highway, interconnecting Minneapolis
 ## File Structure
 The `src` folder contains the Python codebooks (cb) numbered 0 to 2. 
 - cb_0: Upload data; feature engineering &amp; data exploration; seasonality check; train &amp; test data split; train &amp; test data save.
-- cb_1: Implement a linear- and deep learning model for a single- &amp; multi-step model, as well as a multi-outpute model showing a single-step prediction of temperature and traffic volume.
-- cb_2: Implement the LSTM and CNN architecture
+- cb_1: Implement a linear- and deep learning model for a single- &amp; multi-step prediction; as well as a multi-output model, showing a single-step prediction of temperature and traffic volume.
+- cb_2: Implement the LSTM &amp; CNN architecture
 
 ## Evaluation and Conclusion
 A better performing model does not imply a better neural-net architecture. Rather, it depends on the problem to be solved. Three predictive problems were solved, namely the prediction of a one hour timestep, a 24-hour timestep, and a multi-ouput prediction of tempearture and traffic volume for a one hour timestep. The results are displayed for each of these scenarious.
