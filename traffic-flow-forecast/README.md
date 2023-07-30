@@ -34,7 +34,7 @@ Hourly traffic volume, westboud on the I-94 highway, interconnecting Minneapolis
 ## File Structure
 The `src` folder contains the Python codebooks (cb) numbered 0 to 2. 
 - cb_0: Upload data; feature engineering &amp; data exploration; seasonality check; train &amp; test data split; train &amp; test data save.
-- cb_1: Implement a linear- and deep learning model for a single- &amp; multi-step prediction; as well as a multi-output model, showing a single-step prediction of temperature and traffic volume.
+- cb_1: Implement a linear- and deep-learning model for a single- &amp; multi-step prediction; as well as a multi-output model, showing a single-step prediction of temperature and traffic volume.
 - cb_2: Implement the LSTM &amp; CNN architecture
 
 The `images` folder contains model comparison plots — i.e., those seen in the [Evaluation and Conclusion](#evaluation-and-conclusion) section below.
