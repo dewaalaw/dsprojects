@@ -40,7 +40,7 @@ The `src` folder contains the Python codebooks (cb) numbered 0 to 2.
 The `images` folder contains model comparison plots — i.e., those seen in the [Evaluation and Conclusion](#evaluation-and-conclusion) section below.
 
 ## Evaluation and Conclusion
-A better performing model does not imply a better neural-net architecture. Rather, it depends on the problem to be solved. Three predictive problems were solved, namely the prediction of a one hour timestep, a 24-hour timestep, and a multi-ouput prediction of tempearture and traffic volume for a one hour timestep. The results are displayed for each of these scenarious.
+A better performing model does not imply a better neural-net architecture. Rather, it depends on the problem to be solved. Three predictive problems were solved, namely the prediction of a one hour timestep, a 24-hour timestep, and a multi-ouput prediction of tempearture and traffic volume for a one hour timestep. The results are displayed for each scenarious.
 
 ### Single-Step 
 <img src="https://github.com/dewaalaw/dsprojects/blob/main/traffic-flow-forecast/images/compare_single_step_models.png" alt="Fig. 1 — Single Step Models" width="750"/>
