@@ -17,7 +17,4 @@ The following projects are listed thus far:
 
 Thank you for taking the time to visit. If you have any questions, feedback, or opportunities for collaboration, please don't hesitate to reach out. Happy browsing!
 
-Best regards,
-Arthur
-
 
